@@ -1,19 +1,21 @@
 {
-  "name": "atm",
-  "version": "1.0.0",
+  "name": "fa94zh-atm",
+  "version": "2.0.1",
   "main": "index.js",
   "type": "module",
-  "bin": "main.js",
+  "bin": {
+    "atm": "main.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "narjis fatima",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.20"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
-  }
+  },
+  "description": ""
 }
